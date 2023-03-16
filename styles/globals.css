@@ -2,12 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Yapari;
+  src: url('/ameegonetwork/public/assets/fonts/Yapari.ttf');
+
+}
+
 .mask {
   -webkit-mask-image: linear-gradient( white 50%, white 50%);
   mask-image: linear-gradient(to bottom, transparent, white 50%, white 50%, transparent);
 }
 
 body {
+  font-family: 'Yapari';
   -webkit-tap-highlight-color: transparent;
-  background-color: #000000;
+  background-color: #F6F4F2;
+}
+
+.nav {
+  font-family: sans-serif;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tate-img {
+  background-image: url('https://pbs.twimg.com/profile_images/1593669202702999554/aQ7YTs2C_400x400.jpg');
+  background-size: 100%;
+}
+
+.tristan-img {
+  background-image: url('https://media.gettr.com/group28/getter/2022/08/20/16/537baf59-d974-88df-1b5e-d22d9166667b/419dcfdbca4f05097d6b9a837070bb4d_384x0.jpg');
+  background-size: 100%;
+}
+
+.justin-img {
+  background-image: url('https://pbs.twimg.com/profile_images/1612588888656060416/-WXqtFGc_400x400.jpg');
+  background-size: 100%;
 }
